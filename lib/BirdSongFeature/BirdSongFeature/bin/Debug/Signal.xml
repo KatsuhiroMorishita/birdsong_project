@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Signal</name>
+    </assembly>
+    <members>
+        <member name="T:Signal.FrequencyAnalysis.Band">
+            <summary>
+            周波数帯域を定義する構造体
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.Band.Max">
+            <summary>
+            最大周波数[Hz]
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.Band.Min">
+            <summary>
+            最小周波数[Hz]
+            </summary>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.Band.#ctor(System.Double,System.Double)">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="max">最大周波数[Hz]</param>
+            <param name="min">最小周波数[Hz]<para>負値であった場合は0をセットします。</para></param>
+            <exception cref="T:System.SystemException">引数の大小関係が異常である場合にスローします。</exception>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.Band.BandWidth">
+            <summary>
+            バンド幅[Hz]
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.Band.CenterFrequency">
+            <summary>
+            中心周波数[Hz]
+            </summary>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.DFT">
+            <summary>
+            <para>FFT若しくはIFFTを実施するためのクラスです。</para>
+            </summary>
+            <example>
+            DFTクラスの使用例です。
+            <code>
+            DFT fft = new DFT[4096];
+            
+            FFTresult result = fft_arr[i].FFT(sound, 44100); // soundはdouble型又はFFTdata型の一次元配列で、処理したいデータが入っている
+            </code>
+            </example>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.DFT.__FFTpoint">
+            <summary>FFTデータ幅</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.DFT.__WindowKind">
+            <summary>使用する窓の種類</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.DFT.calced_datas">
+            <summary>計算後の配列</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.DFT.set_datas">
+            <summary>外部より渡されたデータを格納する配列</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.DFT.frequencyOfSample">
+            <summary>データのサンプリング周波数</summary>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.Dataset(Signal.FrequencyAnalysis.FFTdata[])">
+            <summary>
+            データをセットするメソッド。
+            <para>
+            指定された窓関数をかけて保持する。
+            データサイズよりFFTサイズの方が大きい場合は、0で埋める。
+            反対に、小さい場合は入るだけしか受け取らない。
+            </para>
+            </summary>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.Dataset(System.Double[])">
+            <summary>
+            データをセットするメソッド2
+            <para>
+            指定された窓関数をかけて保持する。
+            データサイズよりFFTサイズの方が大きい場合は、0で埋める。
+            </para>
+            </summary>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.Calc(System.Double[],System.Int64,System.Int32)">
+            <summary>
+            FFT/IFFTメソッド
+            </summary>
+            <param name="data">
+            被変換変数。結果が格納される。長さnnの複素配列（実部と虚部を一列に並べたもの）。
+            配列の中には、実部・虚部・実部・虚部・実部・虚部・実部・虚部・…と並んでおればよい。
+            原本では要素番号1から詰めていることを仮定している。
+            実部と虚部が入れ替わっても特に影響は無いはず。
+            </param>
+            <param name="nn">data[]に格納されたデータ長を表す。要素数の半分である。2の整数乗である必要がある。</param>
+            <param name="isign">isign　 1：FFT変換を行う　-1：IFFT変換を行う。結果はnn倍される。</param>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.FFT(System.Double[])">
+            <summary>
+            double型一次元配列に対して、FFTを実行する
+            </summary>
+            <example>
+            <code>
+            DFT a = new DFT();                              // このクラスを宣言して、実態も確保
+            FFTresult result = a.FFT(temp);                 // double型配列を渡してFFT演算を実行。配列サイズがFFTデータ幅とする必要はない。
+            </code>
+            </example>
+            <param name="data">double型の配列に解析したいデータを格納してください</param>
+            <returns>FFT処理データ</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.FFT(System.Double[],System.Double)">
+            <summary>
+            double型一次元配列に対して、FFTを実行する
+            <para>サンプリング周期をセットする機能付き（結果の整理が楽になります）</para>
+            </summary>
+            <param name="data">解析したいデータ配列</param>
+            <param name="frequency">サンプリング周波数[Hz]</param>
+            <returns>FFT処理データ</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.FFT(Signal.FrequencyAnalysis.FFTdata[])">
+            <summary>
+            FFTdata型一次元配列に対して、FFTを実行する
+            <para>実部・虚部を合わせて解析するFFTメソッド</para>
+            </summary>
+            <param name="data">FFTdatas型の配列に解析したいデータを格納してください</param>
+            <returns>FFT処理データ</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.FFT(Signal.FrequencyAnalysis.FFTdata[],System.Double)">
+            <summary>
+            FFTdata型一次元配列に対して、FFTを実行する
+            <para>実部・虚部を合わせて解析するFFT/IFFTメソッド</para>
+            <para>サンプリング周期をセットする機能付き（結果の整理が楽になります）</para>
+            </summary>
+            <param name="data">解析したいデータ配列</param>
+            <param name="frequency">サンプリング周波数[Hz]</param>
+            <returns>FFT処理データ</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.#ctor(Signal.FrequencyAnalysis.FFTpoint,Signal.FrequencyAnalysis.Window.WindowKind)">
+            <summary>
+            FFTpointを利用したコンストラクタ
+            <para>デフォルトでは4096ポイントFFT/IFFT，窓関数の種別としてハミングウィンドウがセットされます。</para>
+            </summary>
+            <param name="FFT_point">FFT/IFFTポイント数</param>
+            <param name="window_kind">窓関数の種類</param>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.DFT.#ctor(System.Int32,Signal.FrequencyAnalysis.Window.WindowKind)">
+            <summary>
+            int型の引数を用いてFFTデータ幅を決定するコンストラクタ
+            <para>デフォルトでは4096ポイントFFT/IFFT，窓関数の種別としてハミングウィンドウがセットされます。</para>
+            <para>指定ポイント数が2^Nではない場合、FFT_point＜2^N かつ32以上となる最小の2^Nを採用しますので注意してください。</para>
+            </summary>
+            <param name="FFT_point">FFT/IFFTポイント数</param>
+            <param name="window_kind">窓関数の種類</param>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.DFT.WindowKind">
+            <summary>
+            窓関数の種別
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.DFT.FFTsize">
+            <summary>
+            FFT/IFFTデータ幅
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.DFT.Max">
+            <summary>
+             変換後の配列に含まれる最大値を返す
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.DFT.Mean">
+            <summary>
+            変換後の配列に含まれる平均値を返す
+            </summary>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.DFT.FFTorIFFT">
+            <summary>
+            FFT / IFFT
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.DFT.FFTorIFFT.FFTconvert">
+            <summary>
+            フーリエ変換
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.DFT.FFTorIFFT.IFFTconvert">
+            <summary>
+            逆フーリエ変換
+            </summary>
+        </member>
+        <member name="T:Signal.SignalTest">
+            <summary>
+            Signal名前空間内のクラス群をテストする静的クラス
+            </summary>
+        </member>
+        <member name="M:Signal.SignalTest.GetSin(System.Double,System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            サイン波形を返す
+            </summary>
+            <param name="freq">サイン波の周波数[Hz]</param>
+            <param name="phase">位相[rad]</param>
+            <param name="samplingFreq">サンプリング周波数[Hz]</param>
+            <param name="amplitude">振幅</param>
+            <param name="dataNum">生成するデータ数</param>
+            <returns>生成したサイン波</returns>
+        </member>
+        <member name="M:Signal.SignalTest.GetSquare(System.Double,System.Double,System.Double,System.Double,System.Int32)">
+            <summary>
+            矩形波形を返す
+            </summary>
+            <param name="freq">サイン波の周波数[Hz]</param>
+            <param name="duty">デューティ比<para>0-1.0</para></param>
+            <param name="samplingFreq">サンプリング周波数[Hz]</param>
+            <param name="amplitude">振幅</param>
+            <param name="dataNum">生成するデータ数</param>
+            <returns>生成した矩形波</returns>
+        </member>
+        <member name="M:Signal.SignalTest.FftSin">
+            <summary>
+            サイン関数をFFTにより周波数分析を行う
+            <para>実行後、2つのファイルが作成されますのでソースコードと合わせて確認してみてください。</para>
+            </summary>
+        </member>
+        <member name="M:Signal.SignalTest.FftSquare">
+            <summary>
+            矩形波をFFTにより周波数分析を行う
+            <para>実行後、ファイルが作成されますのでソースコードと合わせて確認してみてください。</para>
+            </summary>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.FFTpoint">
+            <summary>
+            FFTデータ幅
+            <para>データサイズ(2^n)をこの列挙体を使って宣言すれば間違えない.</para>
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size32">
+            <summary>データ幅32ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size64">
+            <summary>データ幅64ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size128">
+            <summary>データ幅128ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size256">
+            <summary>データ幅256ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size512">
+            <summary>データ幅512ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size1024">
+            <summary>データ幅1024ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size2048">
+            <summary>データ幅2048ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size4096">
+            <summary>データ幅4096ポイント</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTpoint.size8192">
+            <summary>データ幅8192ポイント</summary>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.FFTdata">
+            <summary>
+            FFT処理前/後のデータを格納することを想定した構造体
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTdata.Re">
+            <summary>実部</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTdata.Im">
+            <summary>虚部</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTdata.Phase">
+            <summary>位相</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTdata.Abs">
+            <summary>絶対値</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTdata.Log">
+            <summary>絶対値の対数</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTdata.Power">
+            <summary>パワー<para>ところで、パワースペクトル密度 （Power Spectrum Density,PSD）は、Powerを周波数分解能で割れば求まります。</para></summary>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTdata.Set(System.Double,System.Double)">
+            <summary>
+            データをセットする
+            </summary>
+            <param name="_Re">実部</param>
+            <param name="_Im">虚部</param>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTdata.CompareTo(System.Object)">
+            <summary>
+            パワーを用いてオブジェクトを比較します
+            </summary>
+            <param name="obj">比較したいオブジェクト</param>
+            <returns>比較結果<para>自分自身がobjより小さいときはマイナスの数、大きいときはプラスの数、同じときは0を返します。</para></returns>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.FFTresult">
+            <summary>
+            FFT処理後の観測データを扱うクラス
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTresult._data">
+            <summary>
+            FFT処理データ
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTresult._samplingFrequency">
+            <summary>
+            サンプリング周波数[Hz]
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTresult._fftPoint">
+            <summary>
+            FFTのサイズ（例：4096 point）
+            </summary>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.ToString">
+            <summary>
+            結果を文字列で出力する
+            </summary>
+            <returns>文字列で表した結果</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.Save(System.String)">
+            <summary>
+            結果をファイルに保存する
+            </summary>
+            <param name="fname">ファイル名</param>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetFreq(System.Int32)">
+            <summary>
+            要素番号を入れると、その要素の周波数を計算して返す
+            </summary>
+            <param name="index">要素番号</param>
+            <returns>周波数[Hz]</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetData(System.Int32)">
+            <summary>
+            指定した要素番号のFFTの結果を取得する
+            </summary>
+            <param name="index">要素番号（0～this.Lenght - 1）</param>
+            <returns>周波数と結びつけたFFT結果</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetPowerArray">
+            <summary>
+            パワーをdouble型配列として返す
+            </summary>
+            <returns>double型一次元配列に格納されたパワー</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetPowerArray(Signal.FrequencyAnalysis.Band)">
+            <summary>
+            パワーに指定帯域の矩形窓をかけて、double型配列として返す
+            <para>指定した帯域のみ値を格納するし、指定帯域外は0.0を格納します。</para>
+            <para>配列には折り返し以降の周波数は含まれません。</para>
+            </summary>
+            <param name="band">帯域</param>
+            <returns></returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.Filter(Signal.FrequencyAnalysis.Band)">
+            <summary>
+            指定帯域でフィルタをかけたFFTresultオブジェクトを返す
+            </summary>
+            <param name="band">帯域</param>
+            <returns>フィルタリングされたFFTresult<para>サンプリング周波数より先の折り返し分はコピーされません。</para></returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetIndex(System.Double)">
+            <summary>
+            指定周波数がどの要素番号に該当するかを返す
+            </summary>
+            <param name="frequency">周波数[Hz]</param>
+            <returns>要素番号</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetPSD(System.Double,System.Double)">
+            <summary>
+            指定帯域におけるパワースペクトル密度 （Power Spectrum Density,PSD）を返す
+            <para>例えば、20kHzまでしか帯域パワー場存在しない（@サンプリング周波数が40kHz）場合、30kHzまでの帯域パワー密度を要求すると20kHzまでを指定した時と比較して小さな値となります。</para>
+            </summary>
+            <param name="min_frequency">帯域の下限周波数[Hz]</param>
+            <param name="max_frequency">帯域の上限周波数[Hz]</param>
+            <returns>パワースペクトル密度[V^2/Hz]</returns>
+            <exception cref="T:System.SystemException">帯域パワーを定義できない場合にスロー</exception>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetPSD(Signal.FrequencyAnalysis.Band)">
+            <summary>
+            指定帯域におけるパワースペクトル密度 （Power Spectrum Density,PSD）を返す その2
+            <para>帯域を指定できる構造体を使用しているので、配列での処理がやりやすくなったと思う。</para>
+            </summary>
+            <param name="band">帯域</param>
+            <returns>パワースペクトル密度[V^2/Hz]</returns>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.GetPSD(Signal.FrequencyAnalysis.Band,Signal.FrequencyAnalysis.Window.WindowKind)">
+            <summary>
+            指定帯域におけるパワースペクトル密度 （Power Spectrum Density,PSD）を返す その3
+            <para>窓関数を掛けた帯域パワーを返します。</para>
+            </summary>
+            <param name="band">帯域</param>
+            <param name="windowKind">窓関数の種類</param>
+            <returns>パワースペクトル密度[V^2/Hz]</returns>
+            <exception cref="T:System.SystemException">帯域パワーを定義できない場合にスロー</exception>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.#ctor(Signal.FrequencyAnalysis.FFTdata[],System.Double,System.Int32)">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="setData">観測データ配列</param>
+            <param name="samplingFrequency">元データのサンプリング周波数</param>
+            <param name="FFTpoint">FFTポイント数</param>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.FFTresult.Length">
+            <summary>
+            観測データ数
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.FFTresult.MaxFrequency">
+            <summary>
+            表現されている最大の周波数[Hz]
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.FFTresult.FrequencyResolution">
+            <summary>
+            表現されている最小の周波数分解能[Hz]
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.FFTresult.MaxAbs">
+            <summary>
+            最大のパワー（絶対値）
+            </summary>
+        </member>
+        <member name="P:Signal.FrequencyAnalysis.FFTresult.MedianAbs">
+            <summary>
+            パワーの中央値（絶対値）
+            </summary>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.FFTresult.FFTresultPlusFreq">
+            <summary>
+            FFTの処理データと周波数をセットにした構造体
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTresult.FFTresultPlusFreq.data">
+            <summary>
+            FFT処理後のデータ
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.FFTresult.FFTresultPlusFreq.frequency">
+            <summary>
+            周波数[Hz]
+            </summary>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.FFTresult.FFTresultPlusFreq.#ctor(Signal.FrequencyAnalysis.FFTdata,System.Double)">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="x">FFT処理後のデータ</param>
+            <param name="freq">周波数[Hz]</param>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.Window">
+            <summary>
+            窓関数に関するクラス
+            </summary>
+            <example>
+            <code>
+            double[] hoge = new double[100];
+            // hogeに対してデータを格納する処理
+            hoge = Window.Windowing(hoge, Window.WindowKind.Hanning); // これで窓が掛かる
+            </code>
+            </example>
+        </member>
+        <member name="M:Signal.FrequencyAnalysis.Window.Windowing(System.Double[],Signal.FrequencyAnalysis.Window.WindowKind)">
+            <summary>
+            窓関数を掛ける
+            <para>静的メソッドですのでインスタンスを生成することなく利用可能です。</para>
+            </summary>
+            <param name="data_array">窓を掛けたいdouble型一次元配列</param>
+            <param name="windowKind">窓の種類</param>
+            <returns>窓関数を掛けた結果（引数として渡した配列自体が変形するので注意）</returns>
+            <example>
+            以下にWindowingメソッドの使用例を示します。
+            <code>
+            double[] hoge = new double[100];
+            // hogeに対してデータを格納する処理
+            hoge = Window.Windowing(hoge, Window.WindowKind.Hanning); // これで窓が掛かる
+            </code>
+            </example>
+        </member>
+        <member name="T:Signal.FrequencyAnalysis.Window.WindowKind">
+            <summary>
+            窓関数の種類
+            </summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.Window.WindowKind.Hanning">
+            <summary>ハミング窓</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.Window.WindowKind.Perzen">
+            <summary>パルツェン窓</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.Window.WindowKind.NoWindow">
+            <summary>矩形窓</summary>
+        </member>
+        <member name="F:Signal.FrequencyAnalysis.Window.WindowKind.Triangle">
+            <summary>三角窓</summary>
+        </member>
+    </members>
+</doc>

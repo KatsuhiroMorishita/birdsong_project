@@ -1,0 +1,3 @@
+参考文献
+
+[1] 鳥を鳴き声を使って自動認識, http://morimori2008.web.fc2.com/contents/PCprograming/Csharp/BirdRecognition.html, 2013/1.

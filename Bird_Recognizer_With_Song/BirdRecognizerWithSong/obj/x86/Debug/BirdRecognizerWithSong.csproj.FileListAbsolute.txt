@@ -1,0 +1,91 @@
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\FeatureGeneration.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\FeatureGeneration.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\FeatureGeneration.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\FeatureGeneration.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.dll
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Signal.xml
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csprojResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\BirdRecognizerWithSong\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csproj.GenerateResource.Cache
+H:\other\いままでの研究成果\BirdDetection\SoftwareByKMorishita\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+H:\other\いままでの研究成果\BirdDetection\SoftwareByKMorishita\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+H:\other\いままでの研究成果\BirdDetection\SoftwareByKMorishita\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+H:\other\いままでの研究成果\BirdDetection\SoftwareByKMorishita\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb

@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sound</name>
+    </assembly>
+    <members>
+        <member name="T:Sound.WAVE.WaveWriter">
+            <summary>
+            waveファイル作出のためのクラス
+            </summary>
+        </member>
+        <member name="T:Sound.WAVE.WaveBase">
+            <summary>
+            Waveファイルを操作するのに必要な基底クラス
+            </summary>
+        </member>
+        <member name="T:Sound.WAVE.WaveBase.WaveFileHeader">
+            <summary>
+            waveファイルのヘッダ情報を格納する構造体
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveBase.WaveFileHeader.ID">
+            <summary>
+            データ形式（リニアPCMなら1）
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveBase.WaveFileHeader.Channel">
+            <summary>
+            チャネル数（モノラル/ステレオ）
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveBase.WaveFileHeader.SamplingRate">
+            <summary>
+            サンプリングレート[sampling/sec]
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveBase.WaveFileHeader.DataRate">
+            <summary>
+            データレート[byte/sec](チャネル数×ブロックサイズ)
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveBase.WaveFileHeader.BlockSize">
+            <summary>
+            ブロックサイズ：1サンプル当たりのサイズ[byte/sample]<para>(分解能で決まる1データサイズ×チャネル)</para>
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveBase.WaveFileHeader.ResolutionBit">
+            <summary>
+            分解能：1サンプル当たりのビット数[bit/sample]
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveBase.WaveFileHeader.WaveDataSize">
+            <summary>
+            波形データサイズ[byte]
+            </summary>
+        </member>
+        <member name="M:Sound.WAVE.WaveBase.WaveFileHeader.Init">
+            <summary>初期化する</summary>
+        </member>
+        <member name="T:Sound.WAVE.Channel">
+            <summary>
+            モノラル/ステレオを表す列挙体
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.Channel.Monoral">
+            <summary>モノラル</summary>
+        </member>
+        <member name="F:Sound.WAVE.Channel.Stereo">
+            <summary>ステレオ</summary>
+        </member>
+        <member name="T:Sound.WAVE.MusicUnit">
+            <summary>
+            一つの“音”を格納する構造体
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicUnit.Left">
+            <summary>左の音</summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicUnit.Right">
+            <summary>右の音</summary>
+        </member>
+        <member name="M:Sound.WAVE.MusicUnit.#ctor(System.Int32,System.Int32)">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="left">左の音</param>
+            <param name="right">右の音</param>
+        </member>
+        <member name="T:Sound.WAVE.MusicData">
+            <summary>
+            音声データを格納するクラス
+            <para>
+            取得した・セットした音声データを取り扱いやすくする
+            </para>
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicData.data">
+            <summary>
+            音声データを格納する配列
+            </summary>
+        </member>
+        <member name="M:Sound.WAVE.MusicData.GetData(Sound.WAVE.MusicData.Channel)">
+            <summary>
+            指定された片方のデータを返す
+            </summary>
+            <param name="ch">Channel列挙体</param>
+            <returns>double型の配列</returns>
+        </member>
+        <member name="M:Sound.WAVE.MusicData.#ctor(Sound.WAVE.MusicUnit[])">
+            <summary>
+            コンストラクタ
+            </summary>
+            <param name="_data">音声データ配列</param>
+        </member>
+        <member name="P:Sound.WAVE.MusicData.Length">
+            <summary>
+            データ長
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.MusicData.UsableCH">
+            <summary>
+            使用可能なチャンネル
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.MusicData.Item(System.Int32)">
+            <summary>
+            インデクサを利用して、内部の要素へアクセス
+            </summary>
+            <param name="i">要素番号（インデックス）</param>
+            <returns>指定した要素番号に該当する音素データ</returns>
+        </member>
+        <member name="T:Sound.WAVE.MusicData.UsableChannel">
+            <summary>利用可能なチャンネルを示すのに使用する</summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicData.UsableChannel.Right">
+            <summary>右だけに存在</summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicData.UsableChannel.Left">
+            <summary>左だけに存在</summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicData.UsableChannel.Both">
+            <summary>左右両方に存在</summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicData.UsableChannel.NA">
+            <summary>音声なし</summary>
+        </member>
+        <member name="T:Sound.WAVE.MusicData.Channel">
+            <summary>左右を指定するために使用する</summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicData.Channel.Right">
+            <summary>右</summary>
+        </member>
+        <member name="F:Sound.WAVE.MusicData.Channel.Left">
+            <summary>左</summary>
+        </member>
+        <member name="T:Sound.WAVE.WaveReader">
+            <summary>
+            waveファイルを読み込むためのクラス
+            <para>
+            <remarks>
+            ファイル名を指定することで開きます。
+            後はRead()メソッドを使用することで順次データを読み込むことができます。
+            </remarks>
+            </para>
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveReader.fname">
+            <summary>
+            waveファイルのファイル名
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveReader.fileInfo">
+            <summary>
+            waveファイルのヘッダ情報を格納する構造体
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveReader.isOpenStatus">
+            <summary>
+            ファイルが開けていればture
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveReader.fs">
+            <summary>
+            ファイル読み込みに使用するストリームオブジェクト
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveReader.reader">
+            <summary>
+            ファイルをバイナリで読み込むためのオブジェクト
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveReader.ReadWaveDataSize">
+            <summary>
+            読み込み済みの波形データサイズ[Byte]
+            </summary>
+        </member>
+        <member name="F:Sound.WAVE.WaveReader._errorMessage">
+            <summary>
+            エラーメッセージ
+            </summary>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.GetTimeAtSpecifiedSize(System.Int32)">
+            <summary>
+            指定サイズのデータ量が音源にして何秒であるかを返す
+            </summary>
+            <param name="size">指定サイズ[point]</param>
+            <returns>指定サイズの表す時間[sec]</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.Close">
+            <summary>
+            ファイルを閉じる
+            </summary>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.Dispose">
+            <summary>
+            資源を開放します
+            </summary>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.CheckFile">
+            <summary>
+            wave音楽ファイルであるかをチェックする
+            </summary>
+            <returns>8/16 bit リニアPCM形式のwave音楽ファイルでなければ、falseを返す</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.Open(System.Windows.Forms.OpenFileDialog)">
+            <summary>
+            ダイアログを使ってファイルを開く
+            </summary>
+            <remarks>ファイルオープンの状態は、IsOpenプロパティに反映されます</remarks>
+            <param name="dialog">ダイアログオブジェクト</param>
+            <returns>開けたかどうかをtrue/falseで返す。成功ならtrue。</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.Open(System.String)">
+            <summary>
+            ファイル名（またはパス）の指定でファイルを開く
+            </summary>
+            <param name="fname">ファイル名（絶対パス・相対パスでも良い）</param>
+            <returns>開いたファイルのフォーマットが一致しなかった場合、falseが返ります</returns>
+            <exception cref="T:System.SystemException">指定ファイルが存在しない場合にスロー</exception>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.ReadInt24(System.IO.BinaryReader)">
+            <summary>
+            バイナリデータから、リトルエンディアンの24ビット整数を得る
+            </summary>
+            <remarks>
+            C#のint型が32ビットとうち決めた方法で計算する。
+            とりあえず結合した後、負であれば残りの上位ビットを全部1で埋めればよい。
+            <para>
+            ex. 24 bit -3 == 0b(1111 1111 1111 1111 1111 1101)
+                これが32ビットに拡張しても、0b(1111 1111 1111 1111 1111 1111 1111 1101)となるだけ。
+            </para>
+            正の数の場合は代わりに0で埋めればよい（つまり、何もしなくて良い）。
+            </remarks>
+            <param name="r">バイナリのリーダーオブジェクト（既に開いていること）</param>
+            <returns>int型の変数として返します。</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.ReadFile(System.Int32)">
+            <summary>
+            指定ポイント数の音声データを読み込む。
+            <para>モノラルなら、Left/Rightどちらにも格納される。</para>
+            </summary>
+            <param name="size">データサイズ[point]</param>
+            <returns>ファイルを完読すると、0を書き込んで返す</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.GetArrSize(System.Double)">
+            <summary>
+            指定時間分のデータを読み込むのに必要となる配列サイズを返す
+            </summary>
+            <param name="time_width">指定時間幅[s]</param>
+            <returns>指定時間のデータを格納するに足るデータサイズ</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.Read(System.Double)">
+            <summary>
+            指定時間分の音声データを返す
+            </summary>
+            <remarks>
+            waveファイルより、指定された時間だけデータを読み込んで返します。
+            読み出し開始位置は、既読部分の続きになります。
+            </remarks>
+            <example>
+            waveというWaveReaderクラスオブジェクトを生成した場合、下記のコードを実行すれば1.50秒分のサウンドデータを取得できます。
+            <code>
+            MusicData sound = wave.Read(1.50);
+            </code>
+            </example>
+            <param name="time_width">指定時間幅[s]</param>
+            <returns>音声データクラス</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.Read(System.Int32)">
+            <summary>
+            指定ポイント数の音声データを返す
+            </summary>
+            <param name="size">データサイズ[point]</param>
+            <returns>音声データクラス</returns>
+        </member>
+        <member name="M:Sound.WAVE.WaveReader.Finalize">
+            <summary>
+            　デストラクタ.
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.FileName">
+            <summary>ファイル名</summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.IsOpen">
+            <summary>
+            ファイルを開けたか状態をチェック
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.Ch">
+            <summary>
+            読み込んだファイルがステレオかどうかを示す
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.ReadLimit">
+            <summary>
+            データを最後まで読み切るとtrue
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.NowTime">
+            <summary>
+            読み出し位置までの経過時刻[s]を返す
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.SamplingRate">
+            <summary>
+            サンプリング周波数
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.Resolution">
+            <summary>
+            量子化分解能
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.SoundLength">
+            <summary>
+            音源ファイルの長さ[s]
+            </summary>
+        </member>
+        <member name="P:Sound.WAVE.WaveReader.ErrorMessage">
+            <summary>
+            エラーメッセージ
+            </summary>
+        </member>
+    </members>
+</doc>

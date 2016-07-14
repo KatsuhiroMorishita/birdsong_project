@@ -1,0 +1,6 @@
+﻿,,output,output
+,,ヤンバルクイナ,雑音
+input,ヤンバルクイナ,55,21,
+input,雑音,69,529,
+,Accuracy Rate,0.72,0.88
+,Total Accuracy Rate,0.87

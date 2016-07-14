@@ -1,0 +1,5 @@
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\bin\Release\Sound.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\bin\Release\Sound.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\obj\Release\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\obj\Release\Sound.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\obj\Release\Sound.pdb

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE6E637F-B89E-4EDE-B0C7-4111EBBF5DF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BirdSongFeature</RootNamespace>
+    <AssemblyName>BirdSongFeature</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PatternRecognition">
+      <HintPath>..\..\PatternRecognition\bin\Debug\PatternRecognition.dll</HintPath>
+    </Reference>
+    <Reference Include="Signal">
+      <HintPath>..\..\Signal\bin\Debug\Signal.dll</HintPath>
+    </Reference>
+    <Reference Include="Sound">
+      <HintPath>..\..\Sound\bin\Debug\Sound.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FeatureGeneration\Core\KMCustom1stCore\Condition.cs" />
+    <Compile Include="FeatureGeneration\Core\KMCustom1stCore\Core2009mPlus.cs" />
+    <Compile Include="FeatureGeneration\Core\KMCustom1stCore\MinimumCondition.cs" />
+    <Compile Include="FeatureGeneration\Core\KMCustom2ndCore\Core2009mPlusPlus.cs" />
+    <Compile Include="FeatureGeneration\Core\KMCustom3rdCore\Core2009mPlusPlus2.cs" />
+    <Compile Include="FeatureGeneration\FeatureGenerator.cs" />
+    <Compile Include="FeatureGeneration\IFeatureGenerator.cs" />
+    <Compile Include="FeatureGeneration\SelectorOfFeatureGenerator.cs" />
+    <Compile Include="FeatureGeneration\Unit\IUnit.cs" />
+    <Compile Include="FeatureGeneration\Unit\KMCustomUnit1c1d.cs" />
+    <Compile Include="FeatureGeneration\Unit\KMCustomUnit2c1d.cs" />
+    <Compile Include="FeatureGeneration\Unit\KMCustomUnit2c1dver2.cs" />
+    <Compile Include="FeatureGeneration\Unit\KMCustomUnit3c1d.cs" />
+    <Compile Include="FeatureGeneration\Unit\UnitMember.cs" />
+    <Compile Include="Feature\FeatureTextLineParser.cs" />
+    <Compile Include="Feature\Result.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SongDetection\KMCustom1stDetector\Edge.cs" />
+    <Compile Include="SongDetection\KMCustom1stDetector\SongDetector.cs" />
+    <Compile Include="SongDetection\KMCustom1stDetector\SubDetector.cs" />
+    <Compile Include="StatisticalMechanics\PCA.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SongDetection\KMCustom1stDetector\readme and history.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

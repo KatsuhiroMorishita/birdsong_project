@@ -1,0 +1,17 @@
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\PatternRecognition\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\PatternRecognition\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\PatternRecognition\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\PatternRecognition\obj\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\PatternRecognition\obj\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\PatternRecognition\bin\Debug\PatternRecognition.XML
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\PatternRecognition\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\PatternRecognition\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\PatternRecognition\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\PatternRecognition\obj\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\PatternRecognition\obj\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\bin\Debug\PatternRecognition.XML
+C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\obj\Debug\PatternRecognition.csprojResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\obj\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\obj\Debug\PatternRecognition.pdb

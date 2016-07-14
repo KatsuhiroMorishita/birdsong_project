@@ -1,0 +1,86 @@
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Interop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.csproj.ResolveComReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Form1.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Song Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Song Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Info.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.csproj.ResolveComReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Song Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Song Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Interop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Form1.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Info.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.csproj.ResolveComReference.cache
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.exe
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Form1.resources
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Info.resources
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Song Checker.exe
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Song Checker.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\BirdSongFeature.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Signal.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\BirdSongFeature.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Signal.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Signal.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\Interop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\wavePlayerForCheck\wavePlayerForCheck\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.csproj.ResolveComReference.cache
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.exe
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\wavePlayerForCheck\wavePlayerForCheck\obj\x86\Debug\Song Checker.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\Interop.WMPLib.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.csproj.ResolveComReference.cache
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\Song Checker.exe
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\Song Checker.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Song Checker.exe
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Song Checker.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Signal.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\PatternRecognition.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\BirdSongFeature.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Sound.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Sound.xml
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Signal.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Signal.xml
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\PatternRecognition.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\PatternRecognition.xml
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\Interop.WMPLib.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\bin\Debug\AxInterop.WMPLib.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Form1.resources
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Info.resources
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.Properties.Resources.resources
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Song_Checker\wavePlayerForCheck\obj\x86\Debug\wavePlayerForCheck.csproj.GenerateResource.Cache

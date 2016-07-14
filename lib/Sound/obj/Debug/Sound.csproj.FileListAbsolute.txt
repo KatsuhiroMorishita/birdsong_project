@@ -1,0 +1,10 @@
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\Sound\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\Sound\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\Sound\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\Sound\obj\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\BirdRecognizerWithSong\Sound\obj\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\obj\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\obj\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\lib\Sound\bin\Debug\Sound.XML

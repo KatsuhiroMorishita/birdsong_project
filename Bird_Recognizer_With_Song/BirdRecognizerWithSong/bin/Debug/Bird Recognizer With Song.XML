@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bird Recognizer With Song</name>
+    </assembly>
+    <members>
+        <member name="T:BirdRecognizerWithSong.BirdForm">
+            <summary>
+            鳥の鳴き声を用いて種の識別を実施するためのソフトウェアのフォームクラス
+            </summary>
+        </member>
+        <member name="F:BirdRecognizerWithSong.BirdForm.myDiscriminator">
+            <summary>
+            識別器
+            </summary>
+        </member>
+        <member name="F:BirdRecognizerWithSong.BirdForm.parameter">
+            <summary>
+            ニューラルネット用のパラメータ
+            </summary>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.#ctor">
+            <summary>
+            フォームがロードされる前に実行されるコンストラクタ
+            </summary>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.BirdForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            起動時（フォームがロードされたとき）に実行されるメソッド
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.BirdForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            フォームが閉じる前に実施される
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.SetDiscriminator">
+            <summary>
+            識別器の設定ファイルを指定する
+            <para>ダイアログを利用します。</para>
+            </summary>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.SaveFeaturedOrDiscriminatedResultForWaveFiles(System.String,System.String[],PatternRecognition.Discriminator)">
+            <summary>
+            指定されたファイルを順次処理して特徴抽出または識別した結果を保存する
+            </summary>
+            <param name="headerName">保存するファイルのファイル名の先頭に付ける名前</param>
+            <param name="fileNames">処理したいWAVEファイルのパスを格納した配列</param>
+            <param name="discriminator">識別器<para>識別させたいならnull以外を渡してください。</para></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.RecognizeFeaturesInTextFile(System.String)">
+            <summary>
+            特定のファイル内に記載された特徴ベクトルを識別のテストにかけます
+            <example>this.RecognizeFeaturesInTextFile("test.txt");</example>
+            </summary>
+            <param name="testFileName">特徴ベクトルの格納されたファイル名</param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.GetModelsFromDir(System.String)">
+            <summary>
+            フォルダ内の特徴ベクトルを読み込み、構成したモデルのインスタンスを返す
+            </summary>
+            <param name="dir">走査対象のフォルダパス</param>
+            <returns>モデルの配列</returns>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.LearnWithFeatureFilesInDirectory">
+            <summary>
+            特徴ベクトルが記載されたファイルを使用して、学習を実施させる
+            <para>NeuralNetTeacherクラスを使って、既に生成されている特徴ベクトルをまとめたファイルを読み込ませて学習を行います。</para>
+            </summary>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.createFeatureToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ユーザーがGUIによって選んだ一つのWAVEファイルから特徴ベクトルを生成します
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.createFeatureFileFromWAVEFilesInDirectoryToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ユーザーがGUIによって選んだフォルダ内にあるwaveファイルをまとめて特徴抽出にかけます
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.learningToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ツールバーから、学習を選択した際の動作
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.discriminatorToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ファイル内に記載された特徴ベクトルの識別を実施します
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.discriminationWithWAVEFileToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ユーザーがGUIによって選んだ一つのWAVEファイルの識別を実施します
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.discriminationWithWAVEFilesInDirectryToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ユーザーがGUIによって選んだフォルダ内にあるwaveファイルをまとめて識別に掛けます
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.openDiscriminatorToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ユーザーがGUIによって識別器の設定ファイルを読み込むように指示した際に実施する
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.exitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            ユーザーがGUIによって終了ボタンを押した際の動作
+            <para>プログラムを終了します。</para>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.crossValidationToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            交差確認による特徴ベクトルの評価を行う
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:BirdRecognizerWithSong.BirdForm.components">
+            <summary>
+            必要なデザイナー変数です。
+            </summary>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.Dispose(System.Boolean)">
+            <summary>
+            使用中のリソースをすべてクリーンアップします。
+            </summary>
+            <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
+        </member>
+        <member name="M:BirdRecognizerWithSong.BirdForm.InitializeComponent">
+            <summary>
+            デザイナー サポートに必要なメソッドです。このメソッドの内容を
+            コード エディターで変更しないでください。
+            </summary>
+        </member>
+        <member name="P:BirdRecognizerWithSong.BirdForm.AvailableOfDiscriminator">
+            <summary>
+            識別器が利用可能かどうかを返す
+            </summary>
+        </member>
+        <member name="M:BirdRecognizerWithSong.Program.Main">
+            <summary>
+            アプリケーションのメイン エントリ ポイントです。
+            </summary>
+        </member>
+        <member name="T:BirdRecognizerWithSong.Properties.Resources">
+            <summary>
+              ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+            </summary>
+        </member>
+        <member name="P:BirdRecognizerWithSong.Properties.Resources.ResourceManager">
+            <summary>
+              このクラスに使用される、キャッシュされた ResourceManager のインスタンスを返します。
+            </summary>
+        </member>
+        <member name="P:BirdRecognizerWithSong.Properties.Resources.Culture">
+            <summary>
+              厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+              現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+            </summary>
+        </member>
+    </members>
+</doc>

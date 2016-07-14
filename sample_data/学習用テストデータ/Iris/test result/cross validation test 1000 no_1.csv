@@ -1,0 +1,7 @@
+﻿,,output,output,output
+,,セトナ,バーシクル,バージニカ
+input,セトナ,5.0,0.0,0.0,
+input,バーシクル,0.0,4.5,0.5,
+input,バージニカ,0.0,1.5,3.5,
+,Accuracy Rate,1.00,0.90,0.70
+,Total Accuracy Rate,0.87

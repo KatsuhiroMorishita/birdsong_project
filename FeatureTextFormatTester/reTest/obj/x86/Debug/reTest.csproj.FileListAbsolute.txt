@@ -1,0 +1,23 @@
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\project\reTest\reTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\project\reTest\reTest\bin\Debug\FeatureTextFormatTester.exe
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\project\reTest\reTest\bin\Debug\FeatureTextFormatTester.pdb
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\project\reTest\reTest\obj\x86\Debug\FeatureTextFormatTester.exe
+C:\Users\morishita\Documents\workspace\programing_project\C_charp\project\reTest\reTest\obj\x86\Debug\FeatureTextFormatTester.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\obj\x86\Debug\FeatureTextFormatTester.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\obj\x86\Debug\FeatureTextFormatTester.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\obj\x86\Debug\FeatureTextFormatTester.exe
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\obj\x86\Debug\FeatureTextFormatTester.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\FeatureTextFormatTester.exe
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\FeatureTextFormatTester.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\BirdSongFeature.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\Signal.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\BirdSongFeature.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\Signal.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\Signal.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\野鳥の声識別\鳥の種識別　森下作\FeatureTextFormatTester\reTest\obj\x86\Debug\ResolveAssemblyReference.cache

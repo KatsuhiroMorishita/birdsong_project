@@ -1,0 +1,31 @@
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.FormOfWaveReaderCheker.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\bin\Debug\WaveReader Class Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\bin\Debug\WaveReader Class Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReader Class Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReader Class Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReader Class Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReader Class Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\bin\Debug\WaveReader Class Checker.exe
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\bin\Debug\WaveReader Class Checker.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\bin\Debug\Sound.dll
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.FormOfWaveReaderCheker.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\morishita\Documents\workspace\熊大での研究資料\その他の資料(備品リストなど)\私物\三田研究室　他班の話\野鳥の声識別\鳥の種識別　森下作\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReader Class Checker.exe
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReader Class Checker.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\bin\Debug\WaveReader Class Checker.exe
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\bin\Debug\WaveReader Class Checker.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\bin\Debug\Sound.pdb
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\bin\Debug\Sound.xml
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.csprojResolveAssemblyReference.cache
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.FormOfWaveReaderCheker.resources
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.Properties.Resources.resources
+C:\Users\morishita\Documents\workspace\BirdDetection\SoftwareByKMorishita\WaveReaderChecker\WaveReaderChecker\obj\x86\Debug\WaveReaderChecker.csproj.GenerateResource.Cache
