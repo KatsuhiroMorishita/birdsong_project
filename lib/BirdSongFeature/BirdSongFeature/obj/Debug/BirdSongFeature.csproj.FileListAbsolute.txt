@@ -39,3 +39,17 @@ D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\progra
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.csprojResolveAssemblyReference.cache
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.dll
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.pdb
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\BirdSongFeature.dll
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\BirdSongFeature.pdb
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Signal.dll
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Sound.dll
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Signal.pdb
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Signal.xml
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Sound.pdb
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Sound.xml
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.csprojResolveAssemblyReference.cache
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.dll
+C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.pdb

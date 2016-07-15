@@ -19,6 +19,11 @@
             ニューラルネット用のパラメータ
             </summary>
         </member>
+        <member name="P:BirdRecognizerWithSong.BirdForm.AvailableOfDiscriminator">
+            <summary>
+            識別器が利用可能かどうかを返す
+            </summary>
+        </member>
         <member name="M:BirdRecognizerWithSong.BirdForm.#ctor">
             <summary>
             フォームがロードされる前に実行されるコンストラクタ
@@ -151,11 +156,6 @@
             <summary>
             デザイナー サポートに必要なメソッドです。このメソッドの内容を
             コード エディターで変更しないでください。
-            </summary>
-        </member>
-        <member name="P:BirdRecognizerWithSong.BirdForm.AvailableOfDiscriminator">
-            <summary>
-            識別器が利用可能かどうかを返す
             </summary>
         </member>
         <member name="M:BirdRecognizerWithSong.Program.Main">

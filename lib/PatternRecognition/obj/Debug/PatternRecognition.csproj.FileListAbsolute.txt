@@ -15,3 +15,9 @@ C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRec
 C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\obj\Debug\PatternRecognition.csprojResolveAssemblyReference.cache
 C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\obj\Debug\PatternRecognition.dll
 C:\Users\morishita\Documents\workspace\programing_project\C_sharp\lib\PatternRecognition\obj\Debug\PatternRecognition.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\bin\Debug\PatternRecognition.XML
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\bin\Debug\PatternRecognition.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\bin\Debug\PatternRecognition.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.pdb

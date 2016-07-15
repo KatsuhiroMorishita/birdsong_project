@@ -89,3 +89,41 @@ D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\progra
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.dll
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.xml
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Signal.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Signal.xml
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Sound.pdb
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Sound.xml
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
+D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csproj.GenerateResource.Cache
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.pdb
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.dll
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.dll
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.pdb
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.pdb
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.xml
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Signal.pdb
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Signal.xml
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Sound.pdb
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Sound.xml
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csprojResolveAssemblyReference.cache
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
+C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csproj.GenerateResource.Cache
