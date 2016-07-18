@@ -203,11 +203,11 @@ namespace BirdRecognizerWithSong
                             string fname = System.IO.Path.GetFileNameWithoutExtension(fileNames[k]);
                             using (System.IO.StreamWriter sw = new System.IO.StreamWriter(startupDir + @"\" + headerName + "_" + fname + ".csv", false, Encoding.UTF8)) // 答えを書き込む
                             {
-                                sw.WriteLine("File Path," + fileNames[k]);
+                                //sw.WriteLine("File Path," + fileNames[k]);  // 最初にファイル名を書き換える場合はここのコメントアウトを外す。
                                 for (int i = 0; i < result.Count; i++)
                                 {
-                                    sw.WriteLine(result[i].ToString());                             // 音源毎版
-                                    swCombined.WriteLine(result[i].ToString() + fileNames[k]);      // 統合版（フォーマットが少しだけ異なります）, デリミタは既に付いているので新たには不要
+                                    sw.WriteLine(result[i].ToString() + fileNames[k]);              // 音源毎版
+                                    swCombined.WriteLine(result[i].ToString() + fileNames[k]);      // 統合版, デリミタは既に付いているので新たには不要
                                 }
                             }
                         }

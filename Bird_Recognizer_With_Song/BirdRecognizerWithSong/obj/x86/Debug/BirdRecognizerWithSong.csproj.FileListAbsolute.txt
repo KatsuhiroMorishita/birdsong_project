@@ -127,3 +127,22 @@ C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecogn
 C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
 C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
 C:\Users\morishita\Desktop\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csproj.GenerateResource.Cache
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe.config
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.XML
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.exe
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\Bird Recognizer With Song.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.exe
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Bird Recognizer With Song.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\BirdSongFeature.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\PatternRecognition.xml
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Signal.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Signal.xml
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Sound.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\bin\Debug\Sound.xml
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csprojResolveAssemblyReference.cache
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.BirdForm.resources
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.Properties.Resources.resources
+D:\Dropbox\study_share\bird\code\birdsong_project\Bird_Recognizer_With_Song\BirdRecognizerWithSong\obj\x86\Debug\BirdRecognizerWithSong.csproj.GenerateResource.Cache
