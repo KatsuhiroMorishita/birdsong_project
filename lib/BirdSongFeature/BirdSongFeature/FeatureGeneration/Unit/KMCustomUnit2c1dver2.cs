@@ -52,7 +52,7 @@ namespace BirdSongFeature.FeatureGeneration.Unit
         /// <summary>
         /// WAVEファイルをFFTにかけた結果をセットする
         /// <para>KMCustomUnit2c1dクラスとの違いは、連続して鳴く鳥に対応しているという点です。</para>
-        /// <para>背景ノイズが人いときはノイズと鳴き声がいっしょくたにされますけど、運が悪かったということで諦めるという方針です。</para>
+        /// <para>背景ノイズがひどいときはノイズと鳴き声がいっしょくたにされますが、運が悪かったということで諦めるという方針です。</para>
         /// </summary>
         /// <param name="result">WaveファイルをFFT処理したデータ</param>
         public override void Set(FFTresult result)
