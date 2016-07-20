@@ -53,3 +53,17 @@ C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\
 C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.csprojResolveAssemblyReference.cache
 C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.dll
 C:\Users\morishita\Desktop\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\BirdSongFeature.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\BirdSongFeature.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\PatternRecognition.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Signal.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Sound.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\PatternRecognition.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\PatternRecognition.xml
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Signal.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Signal.xml
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Sound.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\Sound.xml
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.csprojResolveAssemblyReference.cache
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.pdb

@@ -35,6 +35,11 @@ namespace BirdSongFeature.FeatureGeneration.Unit
         /// <para>無音区間が閾値[s]以下で有れば結合します。</para>
         /// <para>また、変調スペクトルの分解能を0.1 Hzとしています。</para>
         /// </summary>
-        KMCustomUnit3c1d
+        KMCustomUnit3c1d,
+        /// <summary>
+        /// 特徴ベクトル生成コアにKMCustom4thCoreを使用し、発声検出にKMCustom1stDetectorを利用するユニット
+        /// <para>無音区間が閾値[s]以下で有れば結合します。</para>
+        /// </summary>
+        KMCustomUnit4c1d
     }
 }
