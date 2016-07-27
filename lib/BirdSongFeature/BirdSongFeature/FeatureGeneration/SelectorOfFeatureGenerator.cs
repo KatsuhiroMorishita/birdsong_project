@@ -126,6 +126,10 @@ namespace BirdSongFeature.FeatureGeneration
                     MinimumCondition condition5 = new MinimumCondition(5); // dummy param
                     generator = new FeatureGenerator<KMCustomUnit4c1d>(condition5, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
                     break;
+                case UnitMember.KMCustomUnit5c1d:
+                    MinimumCondition condition6 = new MinimumCondition(50);
+                    generator = new FeatureGenerator<KMCustomUnit5c1d>(condition6, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    break;
             }
             this._generator = generator;
             
@@ -209,6 +213,7 @@ namespace BirdSongFeature.FeatureGeneration
             if (unitName == UnitMember.KMCustomUnit2c1dver2.ToString()) unit = UnitMember.KMCustomUnit2c1dver2;
             if (unitName == UnitMember.KMCustomUnit3c1d.ToString()) unit = UnitMember.KMCustomUnit3c1d;
             if (unitName == UnitMember.KMCustomUnit4c1d.ToString()) unit = UnitMember.KMCustomUnit4c1d;
+            if (unitName == UnitMember.KMCustomUnit5c1d.ToString()) unit = UnitMember.KMCustomUnit5c1d;
 
             this.id = unit;
             this.Log = false;

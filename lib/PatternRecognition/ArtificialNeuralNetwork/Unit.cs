@@ -184,8 +184,8 @@ namespace PatternRecognition.ArtificialNeuralNetwork
         /// <returns>発生させた乱数</returns>
         private double GetRandom()
         {
-            double v = 4.0 * myRandom.NextDouble() - 2.0;
-            if (Math.Abs(v) < 0.1) v = this.GetRandom();    // 0近くだと学習が進まないため、バイアスを設ける
+            double v = 0.0;
+            do { v = 2.0 * myRandom.NextDouble() - 1.0; } while (Math.Abs(v) < 0.1); // 0近くだと学習が進みにくいので、避ける
             return v;
         }
         /// <summary>

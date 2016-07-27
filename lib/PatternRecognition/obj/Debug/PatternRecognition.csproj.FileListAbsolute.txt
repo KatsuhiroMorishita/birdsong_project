@@ -21,3 +21,9 @@ D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\progra
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.csprojResolveAssemblyReference.cache
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.dll
 D:\GoogleDrive\study\morishita_lab_nitk\野鳥の鳴き声による識別\program\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\PatternRecognition\bin\Debug\PatternRecognition.XML
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\PatternRecognition\bin\Debug\PatternRecognition.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\PatternRecognition\bin\Debug\PatternRecognition.pdb
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.csprojResolveAssemblyReference.cache
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.dll
+D:\Dropbox\study_share\bird\code\birdsong_project\lib\PatternRecognition\obj\Debug\PatternRecognition.pdb

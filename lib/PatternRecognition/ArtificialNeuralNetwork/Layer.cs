@@ -246,7 +246,7 @@ namespace PatternRecognition.ArtificialNeuralNetwork
         /// <returns>重み修正量</returns>
         public double GetAmountOfCorrection(double unitOutputError, double unitOutput, double preLayerOutput)
         {
-            return -learningCoefficient * unitOutputError * 2.0 * unitOutput * (1 - unitOutput) * preLayerOutput;
+            return -learningCoefficient * unitOutputError * 2.0 * unitOutput * (1.0 - unitOutput) * preLayerOutput; // ここの式があっているのかきになる。
         }
         /// <summary>
         /// 結合係数修正量の計算、および発火の閾値修正を実施する
