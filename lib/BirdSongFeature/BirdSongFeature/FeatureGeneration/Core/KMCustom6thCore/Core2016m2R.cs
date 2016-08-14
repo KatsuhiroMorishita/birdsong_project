@@ -5,12 +5,12 @@ using System.Text;
 using Signal.FrequencyAnalysis;
 using System.Threading.Tasks;
 
-namespace BirdSongFeature.FeatureGeneration.Core.KMCustom5thCore
+namespace BirdSongFeature.FeatureGeneration.Core.KMCustom6thCore
 {
     /// <summary>
-    /// 帯域ごとに変調スペクトルを求め、それぞれで正規化したものを結合させる。
+    /// 帯域ごとに変調スペクトルを求め、結合したベクトルを正規化する。
     /// </summary>
-    class Core2016m2 : KMCustom1stCore.Core2009mPlus
+    class Core2016m2R : KMCustom1stCore.Core2009mPlus
     {
         // ---- メソッド ---------------------------------------
         /// <summary>
@@ -50,24 +50,25 @@ namespace BirdSongFeature.FeatureGeneration.Core.KMCustom5thCore
                         if (minFrequency == 0.0) minFrequency = 0.3;                                            // 直流に近い部分は除く
                         spectrum[i] = modulationSpectrum.GetPSD(minFrequency, maxFrequency);                    // 2 Hz帯域毎にコピー
                     });
-                    // コピーした変調スペクトルを正規化(最大値を1.0に調整)
-                    double maxSpectrum = spectrum.Max();
-                    if (spectrum.Length != 0 && maxSpectrum != 0.0)
-                    {
-                        for (int i = 0; i < spectrum.Length; i++) spectrum[i] /= maxSpectrum;                   // 変調スペクトルを正規化
-                    }
                     // 変調スペクトルを格納
                     foreach (var val in spectrum) feature_vector.Add(val);
                 }
+                // 正規化
+                var vector = feature_vector.ToArray();
+                double maxSpectrum = vector.Max();
+                if (vector.Length != 0 && maxSpectrum != 0.0)
+                {
+                    for (int i = 0; i < vector.Length; i++) vector[i] /= maxSpectrum;
+                }
 
                 // 呼び出し元に返す
-                var ans = new PatternRecognition.Feature(feature_vector.ToArray());
+                var ans = new PatternRecognition.Feature(vector);
                 return ans;
             }
             else
                 return null;
         }
-        public Core2016m2():base()
+        public Core2016m2R():base()
         {
 
         }

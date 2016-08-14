@@ -45,6 +45,11 @@ namespace BirdSongFeature.FeatureGeneration.Unit
         /// 特徴ベクトル生成コアにKMCustom5thCoreを使用し、発声検出にKMCustom1stDetectorを利用するユニット
         /// <para>無音区間が閾値[s]以下で有れば結合します。</para>
         /// </summary>
-        KMCustomUnit5c1d
+        KMCustomUnit5c1d,
+        /// <summary>
+        /// 特徴ベクトル生成コアにKMCustom6thCoreを使用し、発声検出にKMCustom1stDetectorを利用するユニット
+        /// <para>無音区間が閾値[s]以下で有れば結合します。</para>
+        /// </summary>
+        KMCustomUnit6c1d
     }
 }

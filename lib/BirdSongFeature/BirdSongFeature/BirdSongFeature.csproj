@@ -56,6 +56,7 @@
     <Compile Include="FeatureGeneration\Core\KMCustom2ndCore\Core2009mPlusPlus.cs" />
     <Compile Include="FeatureGeneration\Core\KMCustom3rdCore\Core2009mPlusPlus2.cs" />
     <Compile Include="FeatureGeneration\Core\KMCustom4thCore\Core2016m1.cs" />
+    <Compile Include="FeatureGeneration\Core\KMCustom6thCore\Core2016m2R.cs" />
     <Compile Include="FeatureGeneration\Core\KMCustom5thCore\Core2016m2.cs" />
     <Compile Include="FeatureGeneration\FeatureGenerator.cs" />
     <Compile Include="FeatureGeneration\IFeatureGenerator.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="FeatureGeneration\Unit\KMCustomUnit2c1d.cs" />
     <Compile Include="FeatureGeneration\Unit\KMCustomUnit2c1dver2.cs" />
     <Compile Include="FeatureGeneration\Unit\KMCustomUnit3c1d.cs" />
+    <Compile Include="FeatureGeneration\Unit\KMCustomUnit6c1d.cs" />
     <Compile Include="FeatureGeneration\Unit\KMCustomUnit5c1d.cs" />
     <Compile Include="FeatureGeneration\Unit\KMCustomUnit4c1d.cs" />
     <Compile Include="FeatureGeneration\Unit\UnitMember.cs" />
