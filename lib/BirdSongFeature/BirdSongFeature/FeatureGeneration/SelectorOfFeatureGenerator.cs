@@ -104,35 +104,40 @@ namespace BirdSongFeature.FeatureGeneration
             var startupDir = System.Windows.Forms.Application.StartupPath;
             var fname = startupDir + @"\" + "filter.txt";
 
+            MinimumCondition? condition = null;
             switch (this.id)
-            { 
+            {
                 case UnitMember.KMCustomUnit1c1d:
-                    MinimumCondition condition1 = new MinimumCondition(50);
-                    generator = new FeatureGenerator<KMCustomUnit1c1d>(condition1, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る                   
+                    condition = new MinimumCondition(50);
+                    generator = new FeatureGenerator<KMCustomUnit1c1d>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る                   
                     break;
                 case UnitMember.KMCustomUnit2c1d:
-                    MinimumCondition condition2 = new MinimumCondition(50);
-                    generator = new FeatureGenerator<KMCustomUnit2c1d>(condition2, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    condition = new MinimumCondition(50);
+                    generator = new FeatureGenerator<KMCustomUnit2c1d>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
                     break;
                 case UnitMember.KMCustomUnit2c1dver2:
-                    MinimumCondition condition3 = new MinimumCondition(50);
-                    generator = new FeatureGenerator<KMCustomUnit2c1dver2>(condition3, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    condition = new MinimumCondition(50);
+                    generator = new FeatureGenerator<KMCustomUnit2c1dver2>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
                     break;
                 case UnitMember.KMCustomUnit3c1d:
-                    MinimumCondition condition4 = new MinimumCondition(5);
-                    generator = new FeatureGenerator<KMCustomUnit3c1d>(condition4, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    condition = new MinimumCondition(5);
+                    generator = new FeatureGenerator<KMCustomUnit3c1d>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
                     break;
                 case UnitMember.KMCustomUnit4c1d:
-                    MinimumCondition condition5 = new MinimumCondition(5); // dummy param
-                    generator = new FeatureGenerator<KMCustomUnit4c1d>(condition5, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    condition = new MinimumCondition(5); // dummy param
+                    generator = new FeatureGenerator<KMCustomUnit4c1d>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
                     break;
                 case UnitMember.KMCustomUnit5c1d:
-                    MinimumCondition condition6 = new MinimumCondition(50);
-                    generator = new FeatureGenerator<KMCustomUnit5c1d>(condition6, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    condition = new MinimumCondition(50);
+                    generator = new FeatureGenerator<KMCustomUnit5c1d>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
                     break;
                 case UnitMember.KMCustomUnit6c1d:
-                    MinimumCondition condition7 = new MinimumCondition(50);
-                    generator = new FeatureGenerator<KMCustomUnit6c1d>(condition7, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    condition = new MinimumCondition(50);
+                    generator = new FeatureGenerator<KMCustomUnit6c1d>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
+                    break;
+                case UnitMember.KMCustomUnit7c1d:
+                    condition = new MinimumCondition(50);
+                    generator = new FeatureGenerator<KMCustomUnit7c1d>(condition, reader.SamplingRate, reader.SamplingRate / (double)this.ReadAmount, fname); // 特徴ベクトル生成器のインスタンスを作る
                     break;
             }
             this._generator = generator;
@@ -219,6 +224,7 @@ namespace BirdSongFeature.FeatureGeneration
             if (unitName == UnitMember.KMCustomUnit4c1d.ToString()) unit = UnitMember.KMCustomUnit4c1d;
             if (unitName == UnitMember.KMCustomUnit5c1d.ToString()) unit = UnitMember.KMCustomUnit5c1d;
             if (unitName == UnitMember.KMCustomUnit6c1d.ToString()) unit = UnitMember.KMCustomUnit6c1d;
+            if (unitName == UnitMember.KMCustomUnit7c1d.ToString()) unit = UnitMember.KMCustomUnit7c1d;
 
             this.id = unit;
             this.Log = false;
