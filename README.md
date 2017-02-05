@@ -36,15 +36,16 @@
 <!-- 2013 -->
 + 西宏之, 清田温子, 木村義政, [野鳥の鳴き声の自動認識による未知の渡り鳥の飛来感知](http://ci.nii.ac.jp/els/110009784522.pdf?id=ART0010280767&type=pdf&lang=jp&host=cinii&order_no=&ppv_type=0&lang_sw=&no=1466329477&cp=), 信学技報, vol. 113, no. 210, pp. 53-56, 2013.
 
-+ Holly Root-Gutteridge, 他, [Identifying individual wild Eastern grey wolves (Canis lupus lycaon) using fundamental frequency and amplitude of howls](http://www.tandfonline.com/doi/full/10.1080/09524622.2013.817317#.UirTdca-1cY), Bioacoustics: The International Journal of Animal Sound and its Recording, 2013.  オオカミだけど、技術は同じ。日本語による[紹介記事](http://ggsoku.com/tech/wolf-voice-recognition/)もある。
++ Holly Root-Gutteridge, 他, [Identifying individual wild Eastern grey wolves \(Canis lupus lycaon\) using fundamental frequency and amplitude of howls](http://www.tandfonline.com/doi/full/10.1080/09524622.2013.817317#.UirTdca-1cY), Bioacoustics: The International Journal of Animal Sound and its Recording, 2013.  オオカミだけど、技術は同じ。日本語による[紹介記事](http://ggsoku.com/tech/wolf-voice-recognition/)もある。
 
-+ Holly Root-Gutteridge, 他, (http://www.tandfonline.com/doi/full/10.1080/09524622.2013.817318#.UirTV8a-1cY) [Improving individual identification in captive Eastern grey wolves (Canis lupus lycaon) using the time course of howl amplitudes], Bioacoustics: The International Journal of Animal Sound and its Recording, 2013.
++ Holly Root-Gutteridge, 他, [Improving individual identification in captive Eastern grey wolves \(Canis lupus lycaon\) using the time course of howl amplitudes](http://www.tandfonline.com/doi/full/10.1080/09524622.2013.817318#.UirTV8a-1cY) , Bioacoustics: The International Journal of Animal Sound and its Recording, 2013.
   （オオカミ）
 + 永井靖弘, [長期モニタリング手法－野生動物音声自動録音技術](http://ideacon.jp/contents/inet/vol34/vol34_new01s.pdf), i-net (建設・環境技術レポート &amp; トピックス), Vol. 34, pp. 2-3, 2013.
 + 藤田素子, 丸山晃央, 神崎護, 奥乃博（指導教員）, [音声録音データを用いた鳥類多様性評価の可能性](http://www.esj.ne.jp/meeting/abst/60/T17-2.html), 日本生態学会第60回全国大会 (2013年3月，静岡) 講演要旨, 2013.  
 （アブストのみ）
 + 鈴木麗璽, [野鳥の歌コミュニケーション理解への試み](http://www.osaka-kyoiku.ac.jp/~challeng/SIG-Challenge-B302/B302-05.pdf), 第38回人工知能学会, 2013-12.
 + 黒沢令子, 植田睦之, 斎藤馨, [志賀おたの申す平における森林性鳥類のさえずり活動の研究：長期モニタリングの基礎資料](https://soar-ir.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=2178&item_no=1&page_id=13&block_id=45), 志賀自然教育研究施設研究業績, No.50, pp.7-11, 2013-03.
++ 孫栄, [高認識率の野鳥の種自動識別法に関する研究](https://www.jstage.jst.go.jp/article/jceeek/2013/0/2013_598/_article/-char/ja/), 平成25年度　電気関係学会九州支部連合大会, 2013-09.
 
 <!-- 2012 -->
 + 宇根健一郎, 他, [環境音を含む音データからのヤンバルクイナの鳴き声検出の検討](https://www.jstage.jst.go.jp/article/jjo1986/41/1/41_1_1/_article/-char/ja/), 情報処理学会 第74回全国大会講演論文集, Vol.1, pp.589-591, 2012.
