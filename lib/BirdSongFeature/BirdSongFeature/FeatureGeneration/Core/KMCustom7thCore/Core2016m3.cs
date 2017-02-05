@@ -42,6 +42,7 @@ namespace BirdSongFeature.FeatureGeneration.Core.KMCustom7thCore
                         psd_array.Add(this._timeSeriesPSD[frame][band_id]);
                     }
                 }
+
                 // zero-padding or cutting
                 var _psd_array = psd_array.ToArray();
                 var max_size = (int)this._condition.FrequencyOfFFT * 5 * this._bandNum;   // 5 is 5 sec.
