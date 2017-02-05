@@ -64,13 +64,16 @@
 + 山本康仁, [東三河地域の土地利用の異なる2 地点におけるカエル類の音声モニタリング](http://www.toyohaku.gr.jp/sizensi/06shuppan/kenkyuuho/kenpou22/22kenkyuu-houkoku13.pdf), 豊橋市自然史博物館研報, No. 22, pp. 13-18, 2012.
 + 藤岡正博, [井川演習林および井川地域の鳥類相](http://www.tulips.tsukuba.ac.jp/limedio/dlam/M11/M1106410/2.pdf), 筑波大学農林技術センター演習林報告, 28号, pp. 1-27, 2012.
 
+
 <!-- 2011 -->
 + 矢田豊, 江崎功二郎, 小谷二郎, [人工林における下層植生量と鳥類生息状況の関係](http://www.pref.ishikawa.lg.jp/ringyo/science/public/kh/), 石川県林業試験場研究報告, No. 43, pp. 13-18, 2011.
 
 + Peter Jancovic, Münevver Köküer, [Automatic Detection and Recognition of Tonal Bird Sounds in Noisy Environments](https://www.researchgate.net/publication/220058086_Automatic_Detection_and_Recognition_of_Tonal_Bird_Sounds_in_Noisy_Environments), Hindawi Publishing Corporation, EURASIP Journal on Advances in Signal Processing, Volume 2011, Article ID 982936, 10 pages, doi:10.1155/2011/982936, 2011.  
 
+
 <!-- 2010 -->
 + 百瀬造, [鳥の鳴き声を分析しよう　実習編](http://ornithology.jp/osj/japanese/katsudo/Letter/no32/files/gakko-2010-text.pdf), 鳥の学校‐第４回テーマ別講習会, 2010.
++ R. Bardelia, D. Wolffb, F. Kurthc, M. Koche, K.-H. Tauchertf, K.-H. Frommolt, [Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring](http://www.sciencedirect.com/science/article/pii/S0167865509002487), Pattern Recognition Letters, Volume 31, Issue 12, Pages 1524–1534, 1 September 2010.
 
 
 <!-- 2009 -->
@@ -78,7 +81,7 @@
 + 百瀬浩, [鳥類研究者のための音声分析ガイド](http://ornithology.jp/osj/japanese/katsudo/Letter/no24/OL24.html#04), 鳥学通信 No. 24, 2009.
 + 高橋幸司, 三田長久, 他, [野鳥の音声データによる自動種識別システム](http://ci.nii.ac.jp/naid/110007094575), 電子情報通信学会総合大会講演論文集 2009年_情報・システム(1), 178, 2009-03-04.
 + 澁谷尚志, 横田康成, [ハシボソガラスの鳴き声のスペクトログラム解析，および検知](https://www.jstage.jst.go.jp/article/ieejeiss/129/12/129_12_2144/_article/-char/ja/), 電気学会論文誌Ｃ, Vol.129, No.12, pp.2144-2151, 2009.
-+ R. Bardelia, D. Wolffb, F. Kurthc, M. Koche, K.-H. Tauchertf, K.-H. Frommolt, [Detecting bird sounds in a complex acoustic environment and application to bioacoustic monitoring](http://www.sciencedirect.com/science/article/pii/S0167865509002487), Pattern Recognition Letters, Volume 31, Issue 12, Pages 1524–1534, 1 September 2010.
++ CW Clark, [Advanced Technologies for Acoustic Monitoring of Bird Populations](http://www.dtic.mil/dtic/tr/fulltext/u2/a534222.pdf), SERDP SI-1461 Final Report, 2009.
 
 
 <!-- 2008 -->
