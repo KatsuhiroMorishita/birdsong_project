@@ -140,9 +140,9 @@ namespace BirdSongFeature.FeatureGeneration.Core.KMCustom1stCore
                 indexOfMax++;                                                                               // 等しいと代入の前にループを抜けるので、抜けた後で加算してインデックスとする
                 // SN比を求める。求まればよいが。
                 double noiseLevelPSD = this._timeSeriesPSD[0][indexOfMax];                                  // フレームの初めはノイズレベルに近いはず
-                double maxPSDofFlame = double.MinValue;
-                for (int i = 0; i < this._timeSeriesPSD.Count; i++) if (maxPSDofFlame < this._timeSeriesPSD[i][indexOfMax]) maxPSDofFlame = this._timeSeriesPSD[i][indexOfMax];
-                this._SNratio = 10.0 * Math.Log10(maxPSDofFlame / noiseLevelPSD);
+                double maxPSDofFrame= double.MinValue;
+                for (int i = 0; i < this._timeSeriesPSD.Count; i++) if (maxPSDofFrame < this._timeSeriesPSD[i][indexOfMax]) maxPSDofFrame = this._timeSeriesPSD[i][indexOfMax];
+                this._SNratio = 10.0 * Math.Log10(maxPSDofFrame / noiseLevelPSD);
                 // 帯域パワーの最大値が1になるように正規化
                 if (maxPSDofBand != 0.0) for (int i = 0; i < this._sumOfPSDbyBand.Length; i++) this._sumOfPSDbyBand[i] /= maxPSDofBand;
                 

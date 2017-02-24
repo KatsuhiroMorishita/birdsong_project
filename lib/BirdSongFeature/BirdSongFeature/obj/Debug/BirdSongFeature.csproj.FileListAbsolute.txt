@@ -66,4 +66,3 @@ D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFe
 D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.csprojResolveAssemblyReference.cache
 D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.dll
 D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\obj\Debug\BirdSongFeature.pdb
-D:\Dropbox\study_share\bird\code\birdsong_project\lib\BirdSongFeature\BirdSongFeature\bin\Debug\PatternRecognition.xml
